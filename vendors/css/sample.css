@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+}
+html {
+  padding: 0;
+  /* margin: 0; */
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color: #333333;
+  height: 100px;
+
+
+}
+header ul {
+
+
+}
+li {
+  list-style: none;
+}
+li.left {
+  text-align:left;
+  float:left;
+  padding:0;
+  margin:0;
+}
+li.right{
+  text-align:right;
+  float: right;
+  padding:0;
+  margin:0;
+}
+ul {
+ font-size: 20px;
+}
+.top_menu li {
+
+  width: auto;
+
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+header ul a {
+  color: white;
+  text-decoration: none;
+
+}
+header ul:after {
+  float: left;
+}
+
+clearfix:after{
+  display: block;
+  clear: both;
+}
+/* ここまでがheader部分の実装 */
+
+
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+.img1 {
+   position: relative;
+   top: 10px;
+   left: 10px
+
+}
+.img2 {
+   position: absolute; left:700px; top:400px;
+   width: 20%;
+
+}
+.img3 {
+  height: 700px;
+  width: 1680px;
+}
+.about {
+  text-align: center;
+
+
+/* About Achieve部分の実装 */
+}
+.about {
+  line-height: 50px;
+}
+.letter1 {
+  height: 60px;
+}
+.letter2 {
+  height: 60px;
+}
+/* ここから */
+
+
+.function {
+  background-color: #C0C0C0;
+  position: relative;/*←相対位置*/
+  padding-bottom: 120px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  bottom: 0;
+
+}
+/* .function-images1 { */
+  /* float: left; */
+/* } */
+/* .function-images2 {
+  /* float: left; */
+
+/* } */
+/* .function-images3 {
+
+}
+.function-images4 {
+
+} */
+.function-title {
+  height: 150px;
+  padding-top: 50px;
+}
+.function-images {
+  text-align: center;
+  height: 300px;
+}
+
+.function-image {
+  /* text-align:left; */
+  float:left;
+  padding-left: 14%;
+  margin:0;
+  /* width: 600px; */
+}
+
+
+/*
+.function-image2 {
+  text-align:right;
+  float:right;
+  padding:0;
+  margin:0;
+  width: 600px;
+} */
+/* ここまでがfunction部分の実装 */
+footer {
+  background-color: #003366;
+  /* height: 90px; */
+  width: 100%;
+  color: white;
+  font-size: 80%;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* footer部分の実装 */
+}
+.font {
+
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。
